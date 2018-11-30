@@ -357,7 +357,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <h3>DB Browser for SQLite</h3>
   <p>
 
-    SQLite by itself does not provide a GUI (Graphical User Interface) to allow you to examine the database or write SQL queries. For this we will use a produce called DB Browser for SQLite. The software can be downloaded from the [DB Browser](http://sqlitebrowser.org/) site
+    SQLite by itself does not provide a GUI (Graphical User Interface) to allow you to examine the database or write SQL queries. For this we will use a produce called DB Browser for SQLite. The software can be downloaded from the <a href="http://sqlitebrowser.org/">DB Browser</a> site
 From the front page you can select the version you require. There are specific downloads for Windows and Mac users. For various Linux distributions there are detailed instructions at the bottom of the page.
   </p>
 
@@ -374,7 +374,7 @@ It does not create an icon on the desktop. To explicitly launch the application 
   <h3>Install the SQLite Shell program</h3>
     
   <p>
-  The SQLite shell can be downloaded from [here](https://sqlite.org/download.html). There are versions available for Linux, Mac and Windows. As I have a Windows machine I will download the Windows version. You should download the version appropriate to your machine.
+  The SQLite shell can be downloaded from the <a href="https://sqlite.org/download.html">SQLite</a> site. There are versions available for Linux, Mac and Windows. As I have a Windows machine I will download the Windows version. You should download the version appropriate to your machine.
 
 The number after the x86- may be different when you download if a later version has been released.
 The download is a .zip file. You need to unzip the file and store the contents (3 files) in a folder of your choosing. There is no actual install process, the program (file) sqlite3.exe can be run directly from the folder.
@@ -389,10 +389,7 @@ You do not need to specify any parameters, connection to a databse can be done f
    </p>	
 	
 </div> {% comment %} End of 'DB Browser for SQLite' section. {% endcomment %}	
-  </div>
 
- 
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
