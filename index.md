@@ -358,7 +358,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
-    <a href="https://www.sqlite.org/">DB Browser for SQLite</a> in our lessons.
+    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
 
   <div class="row">
@@ -391,11 +391,45 @@ and our administrator may contact you if we need any extra information.</h4>
         SQLite comes pre-installed on Linux.
       </p>
     </div>
+	
+   <div id="SQL"> {% comment %} Start of 'DB Browser for SQLite' section. {% endcomment %}
+  <h3>DB Browser for SQLite</h3>
+  <p>
+    SQLite by itself does not provide a GUI (Graphical User Interface) to allow you to examine the database or write SWQL queries. For this we will use a produce called DB Browser for SQLite. The software can be downloaded from the [DB Browser](http://sqlitebrowser.org/) site
+From the front page you can select the version you require. There are specific downloads for Windows and Mac users. For various Linux distributions there are detailed instructions at the bottom of the page.
+  </p>
+
+  <h4>Installing on Windows</h4>
+  <p>
+   For a current Windows environment the 64-bit windows download will be most appropriate.
+
+The download is a windows executable file which you can run by double clicking it. It opens an installation wizard. You can default all of the options in the wizard. You will require admin permissions on the PC/Laptop you install on.
+By default the application is launched automatically when the installation is complete.
+It does not create an icon on the desktop. To explicitly launch the application after installing it, use the windows button (bottom left of screen) and type in ‘DB Browser’ in the search bar and selecting the application when it appears.
+  
+  </p>
+  
+  <h3>Install the SQLite Shell program</h3>
+    
+  <p>
+  The SQLite shell can be downloaded from [here](https://sqlite.org/download.html). There are versions available for Linux, Mac and Windows. As I have a Windows machine I will download the Windows version. You should download the version appropriate to your machine.
+
+The number after the x86- may be different when you download if a later version has been released.
+The download is a .zip file. You need to unzip the file and store the contents (3 files) in a folder of your choosing. There is no actual install process, the program (file) sqlite3.exe can be run directly from the folder.
+You may however like to add the folder location to your PATH environment variable so that you can call sqlite3 from any command prompt.
+   </p>
+   
+   <h4>Invoke the SQLite Shell program</h4>
+   <p>
+	You invoke the SQLite Shell from the commandline. Remember that the program is sqlite3 and you must have added the folder name to your envirnment PATH or explicitly navigated to the folder before trying to run the program.
+
+You do not need to specify any parameters, connection to a databse can be done from within the shell.
+   </p>	
+	
+</div> {% comment %} End of 'DB Browser for SQLite' section. {% endcomment %}	
   </div>
 
-  <p><strong>If you installed Anaconda, it also has a copy of SQLite
-    <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
-    Instructors will provide a workaround for it if needed.</strong></p>
+ 
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
