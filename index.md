@@ -352,50 +352,12 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
-  <h3>SQLite</h3>
-
-  <p>
-    SQL is a specialized programming language used with databases.  We
-    use a simple database manager called
-    <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="sql-windows">Windows</h4>
-      <p>
-        The <a href="https://www.sqlite.org/download.html">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
-	</a>
-        installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-macosx">macOS</h4>
-      <p>
-        SQLite comes pre-installed on macOS.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="sql-linux">Linux</h4>
-      <p>
-        SQLite comes pre-installed on Linux.
-      </p>
-    </div>
 	
    <div id="SQL"> {% comment %} Start of 'DB Browser for SQLite' section. {% endcomment %}
   <h3>DB Browser for SQLite</h3>
   <p>
-    SQLite by itself does not provide a GUI (Graphical User Interface) to allow you to examine the database or write SWQL queries. For this we will use a produce called DB Browser for SQLite. The software can be downloaded from the [DB Browser](http://sqlitebrowser.org/) site
+
+    SQLite by itself does not provide a GUI (Graphical User Interface) to allow you to examine the database or write SQL queries. For this we will use a produce called DB Browser for SQLite. The software can be downloaded from the [DB Browser](http://sqlitebrowser.org/) site
 From the front page you can select the version you require. There are specific downloads for Windows and Mac users. For various Linux distributions there are detailed instructions at the bottom of the page.
   </p>
 
